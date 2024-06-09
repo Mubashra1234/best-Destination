@@ -1,0 +1,899 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('./fonts/WorkSans-Regular.woff2') format('woff2'),
+        url('./fonts/WorkSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('./fonts/WorkSans-Italic.woff2') format('woff2'),
+        url('./fonts/WorkSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volkhov';
+    src: url('./fonts/Volkhov-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Volkhov-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volkhov';
+    src: url('./fonts/Volkhov-Bold.woff2') format('woff2'),
+        url('./fonts/Volkhov-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volkhov';
+    src: url('./fonts/Volkhov-Regular.woff2') format('woff2'),
+        url('./fonts/Volkhov-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volkhov';
+    src: url('./fonts/Volkhov-Italic.woff2') format('woff2'),
+        url('./fonts/Volkhov-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Poppins-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Poppins-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-BlackItalic.woff2') format('woff2'),
+        url('./fonts/Poppins-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/Poppins-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Black.woff2') format('woff2'),
+        url('./fonts/Poppins-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-MediumItalic.woff2') format('woff2'),
+        url('./fonts/Poppins-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-ThinItalic.woff2') format('woff2'),
+        url('./fonts/Poppins-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Italic.woff2') format('woff2'),
+        url('./fonts/Poppins-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('./fonts/Poppins-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Regular.woff2') format('woff2'),
+        url('./fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Bold.woff2') format('woff2'),
+        url('./fonts/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-ExtraLightItalic.woff2') format('woff2'),
+        url('./fonts/Poppins-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-LightItalic.woff2') format('woff2'),
+        url('./fonts/Poppins-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Thin.woff2') format('woff2'),
+        url('./fonts/Poppins-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-ExtraLight.woff2') format('woff2'),
+        url('./fonts/Poppins-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Light.woff2') format('woff2'),
+        url('./fonts/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Medium.woff2') format('woff2'),
+        url('./fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('./fonts/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+p {
+    color: #5E6282;
+    font-size: 16px;
+}
+
+
+
+header {
+    padding-top: 50px;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-family: 'Work Sans';
+    color: #212832;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.62px;
+    padding-inline: 35px !important;
+}
+
+.navbar .Sign-in {
+    border: 1px solid #212832;
+    padding: 10px 30px !important;
+    border-radius: 5px;
+}
+
+
+.banner {
+    background: url(./images/Decore.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 150px;
+    background-position-y: top;
+}
+
+.banner-text {
+    padding-top: 170px;
+}
+
+.banner-text h5 {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #DF6951;
+}
+
+.banner-text h2 {
+    font-family: 'Volkhov';
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    padding-top: 20px;
+    color: #181E4B;
+}
+
+.banner-text p {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #5E6282;
+    padding-top: 10px;
+}
+
+.banner-action {
+    display: flex;
+    align-items: start;
+}
+
+.banner-action a {
+    font-family: 'Work Sans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.9px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #F1A501;
+    border-radius: 10px;
+}
+
+.banner-action-btn {
+    margin-top: 30px;
+}
+
+
+.cards-heading {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
+
+.cards-heading span,.destination-heading span, .order-heading span,.comments-heading span  {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    
+    color:  #5E6282;
+    margin-bottom: 10px;
+}
+
+.cards-heading h1,.destination-heading h1,.order-heading h1,.comments-heading h1  {
+    color:  #14183E;
+    font-family: 'Volkhov';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64.5px;
+    
+}
+
+
+
+
+.card-img {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 70px;
+}
+
+.cards .card-text {
+    text-align: center;
+}
+
+.cards .card-text h5 {
+    margin: 10px 0;
+    font-family: 'Open Sans';
+font-size: 20px;
+font-weight: 600;
+line-height: 27.24px;
+text-align: center;
+color: #1E1D4C;
+}
+.card .card-text p{
+    font-family: 'Poppins';
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+color: #5E6282;
+}
+.card{
+    border: none !important;
+}
+
+.destination-heading {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
+
+.destination-heading span {
+    font-size: 18px;
+    font-weight: 600;
+    color:  #5E6282;
+    margin-bottom: 10px;
+}
+
+.destination-heading h1 {
+    color: #14183E;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.destinations-text {
+    padding: 27px 20px;
+}
+
+.des-price {
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.destinations-text span {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.destinations-text span p {
+    margin: 0px;
+}
+
+.destinations-text .des-price span {
+    margin-top: 0%;
+}
+
+.destinations {
+    width: 100%;
+}
+
+.destinations-img img {
+    width: 100%;
+}
+
+.choose-order span{
+    font-family: 'Poppins';
+font-size: 16px;
+font-weight: 700;
+line-height: 19.92px;
+text-align: left;
+color: #5E6282;
+}
+.choose-order p{
+    font-family: 'Poppins';
+font-size: 16px;
+font-weight: 400;
+line-height: 19.92px;
+text-align: left;
+color: #5E6282;
+}
+
+.order {
+    margin-top: 100px;
+
+}
+
+
+.orders {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+
+.comments-heading img {
+    margin: 82px;
+    margin-left: 25px;
+}
+
+
+.comment {
+    margin-top: 150px;
+}
+
+.review p {
+    color:  #5E6282;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+
+}
+
+.review {
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.review img {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -45px;
+}
+
+.review h5 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.review span {
+    color: #5E6282;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.image{
+    padding-block: 100px;
+
+}
+.image .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.image-axon {
+    width: 130px;
+    flex-shrink: 0;
+}
+
+.image-jetstar {
+    width: 172.857px;
+    height: 110px;
+    flex-shrink: 0;
+}
+
+.image-expedia {
+    width: 162px;
+    height: 162px;
+    flex-shrink: 0;
+}
+
+.image-cantas {
+    width: 162px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.image-iltia {
+    width: 94px;
+    height: 21px;
+    flex-shrink: 0;
+}
+
+.subscribe{
+    margin-top: 30px;
+    background-color: #fbfbfc;
+    padding-block: 50px;
+}
+.subscribe .subs-heading {
+    color:  #5E6282;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    /* 163.636% */
+    margin-top: 100px;
+}
+
+.subs-heading h3{
+    font-family: 'Poppins';
+font-size: 33px;
+font-weight: 600;
+line-height: 54px;
+text-align: center;
+color: #5E6282;
+
+}
+
+.subscribe-input{
+    
+    display: flex;
+    align-items: center;
+gap:20px;
+max-width: 800px;
+margin: auto;
+justify-content: center;
+
+}
+.subscribe-input .form{
+    
+    margin-top: 150px;
+    min-width: 421px;
+    max-width: 421px;
+    display: flex;
+    position: relative;
+}
+.form i{
+    position: absolute;
+    left: 30px;
+    top: 26px;
+    font-size: 20px;
+
+    
+}
+.subscribe-input input{
+    border-radius: 20px;
+    width: 100%;
+    height: 68px;
+    padding-left: 66px;
+}
+.subscribe-btn .sub-submit{
+    margin-top: 150px;
+    border-radius: 10px;
+    background:  linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    font-size: 17px;
+font-style: normal;
+color: #FFF;
+border: 0;
+font-weight: 600;
+line-height: normal;
+padding: 22px 50px;
+width: fit-content;
+}
+
+
+.footer-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.footer{
+    padding-block: 100px;
+}
+.footer p{
+    font-family: 'Poppins';
+font-size: 13px;
+font-weight: 400;
+line-height: 16.19px;
+text-align: left;
+padding-top: 40px;
+color: #5E6282;
+width: 69%;
+}
+.footer h5{
+    font-family: 'Poppins';
+font-size: 21px;
+font-weight: 700;
+line-height: 26.15px;
+text-align: left;
+color: #080809;
+padding-bottom: 25px;
+}
+.footer a{
+    padding-top: 10px;
+    font-family: 'Poppins';
+font-size: 18px;
+font-weight: 400;
+line-height: 22.41px;
+text-align: left;
+display: block;
+color: #5E6282;
+text-decoration: none;
+}
+.icon-p p{
+    font-family: 'Poppins';
+font-size: 19px;
+font-weight: 400;
+line-height: 24.9px;
+letter-spacing: 0.005em;
+text-align: left;
+
+}
+@media(max-width:1200px){
+    .navbar-nav .nav-item .nav-link {
+        padding-inline: 15px !important;
+        font-size: 15px;
+    }
+    .banner-text {
+    padding-top: 50px;
+}
+.banner-text h5 {
+font-size: 16px;
+}
+.banner-text h2 {
+    font-size: 45px;
+    line-height: 70px;
+}
+.cards-heading span, .destination-heading span, .order-heading span, .comments-heading span {
+    font-size: 13px;
+}
+.cards-heading h1, .destination-heading h1, .order-heading h1, .comments-heading h1 {
+    font-size: 40px
+}
+.cards .card-text h5 {
+    font-size: 16px;
+}
+.card .card-text p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.destinations-text {
+    padding: 10px 2px;
+}
+.destinations-text span{
+    margin: 0;
+}
+.orders{
+    align-items: baseline;
+}
+.choose-order span {
+    font-size: 13px;
+}
+.choose-order p {
+    font-size: 12px;
+}
+.review{
+    margin-left: 30px;
+}
+}
+@media(max-width:768px){
+  
+    .banner .col{
+        width: 100%;
+    }
+  
+    .cards .col{
+        width: 48%;
+        max-width: 50%;
+    }
+    .images div{
+text-align: center;
+    }
+    .image .images div{
+        height: 126px;
+
+    }
+    .image .images img{
+        height: auto;
+    }
+
+    .subscribe-input .form {
+        min-width: 69%;
+    }
+    header{
+        padding-block: 20px;
+        background-color: #fff;
+    }
+    .navbar-collapse{
+        padding-top: 35px;
+    }
+    .subscribe-btn{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .destination-heading{
+        padding: 50px;
+    }
+    .orders{
+        margin-top: 20px;
+    }
+    .cards-heading h1, .destination-heading h1, .order-heading h1, .comments-heading h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .review p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .image .images{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+    }
+    .image .images div{
+        height: fit-content;
+    }
+    .subs-heading h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .subscribe-input input{
+        width: 60%;
+        margin-left: 9rem;
+    }
+    .form i {
+        left: 165px;
+    }
+}
+@media(max-width:576px){
+    .banner-img{
+        display: none;
+    }
+    .cards-heading{
+        padding-inline: 0;
+    }
+    .cards .card{
+     padding-top: 40px;;
+    }
+    .destinations{
+        padding-top: 30px;
+    }
+    .review{
+        margin-top: 100px;
+    }
+    .subscribe-input input {
+        width: 96%;
+        margin-left: 2rem;
+    }
+    .form i {
+        left: 59px;
+    }
+    .footer-links{
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-link{
+        padding-top: 40px;
+    }
+    .navbar-brand img{
+        width: 100px;
+    }
+ 
+    .banner-text h2 {
+        font-size: 22px;
+        line-height: 37px;
+    }
+    .banner-text h5 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .banner-text p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .cards-heading{
+        width: 100%;
+    }
+    .cards-heading h1, .destination-heading h1, .order-heading h1, .comments-heading h1 {
+        font-size: 27px;
+        line-height: 39px;
+    }
+.destination-heading{
+    padding-inline: 0;
+    width: 100%;
+}
+.des-price p{
+    font-size: 11px;
+    margin: 0;
+}
+.des-price span{
+    font-size: 11px;
+}
+.destinations-text span{
+    padding-top: 10px;
+}
+.destinations-text span p {
+    font-size: 12px;
+}
+.play-video img{
+    margin-top: 29px;
+}
+.cards-heading h1, .destination-heading h1, .order-heading h1, .comments-heading h1 {
+    font-size: 27px;
+    line-height: 30px;
+
+
+}
+.review p{
+    font-size: 9px;
+}
+.image .images{
+    grid-template-columns: auto auto;
+}
+.subscribe-input{
+    display: block;
+}
+.subscribe-input input {
+    margin-left: 0;
+}
+.form i {
+    left: 37px;
+}
+.footer a {
+    font-size: 13px;
+}
+.cards-heading span, .destination-heading span, .order-heading span, .comments-heading span {
+    font-size: 7px;
+}
+.orders{
+    gap: 10px;
+    margin-top: 10px;
+}
+}
